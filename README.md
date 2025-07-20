@@ -18,17 +18,13 @@ This is a Verilog implementation of a microprogrammed 16-bit processor with:
 
 ## How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/Verilog_8bit_BP.git
-   cd Verilog_16bit_BP
-   ```
+1. Clone this repository
 2. Open `project_Basic_processor.xpr` in Vivado.
 3. Run simulation for testbench  `PB_TOP_tb`)
 
-## 🐞 Known Issue: Incorrect MDR Data During Execution
+## 🐞 Issue: Incorrect MDR Data During Execution
 ### ❌ Problem Description
-During instruction execution, the **Memory Data Register (MDR)** Instead of loading 0005, MDR contains 9101 (stale instruction value).
+During instruction execution, the MDR Instead of loading 0005, MDR contains 9101 (stale instruction value).
 As a result, the ALU performs an incorrect addition, causing AC to be corrupted. 
 
 ### ✅ LDA Instruction: Works Fine
