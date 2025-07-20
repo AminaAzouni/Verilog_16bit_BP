@@ -1,0 +1,28 @@
+# Vivado project temp files to ignore
+*.jou
+*.log
+*.str
+*.wdb
+*.xml
+
+# Vivado generated folders to ignore
+project_Basic_processor.cache/
+project_Basic_processor.hw/
+project_Basic_processor.ip_user_files/
+project_Basic_processor.runs/
+project_Basic_processor.sim/
+
+# Xilinx WebTalk files
+*.webtalk
+
+# Other simulation/cache files
+*.vcd
+*.vvp
+*.tmp
+*.bak
+*.xsim/
+*.xdc~
+
+# General OS files
+.DS_Store
+Thumbs.db
