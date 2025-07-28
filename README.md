@@ -19,7 +19,7 @@ This is a Verilog implementation of a microprogrammed 16-bit processor with:
 ## How to Run
 
 1. Clone this repository
-2. Open `project_Basic_processor.srcs` in Vivado.
+2. Open `project_Basic_processor.xpr` in Vivado.
 3. Run simulation for testbench  `PB_TOP_tb`)
 
 ## 🐞 Issue: Incorrect MDR Data During Execution
